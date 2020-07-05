@@ -52,8 +52,8 @@ count = 1
 kq = 0
 list = []
 # print(df_model)
-for i in range(20000):
-    if(i+1200 <= 20000):
+for i in range(10000):
+    if(i+1200 <= 10000):
         timeAfter60m = df_time[i+1200] 
         #So sánh th sau 60 phút với thời gian hiện tại
         if int(timeAfter60m) - 3600 == df_time[i]:
